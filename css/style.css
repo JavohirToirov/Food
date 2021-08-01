@@ -1,0 +1,1189 @@
+@import 'font.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.row-ml {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-pd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* *************************************************************************** */
+/* header__menu start */
+.header__menu-nav-link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #150C01;
+    opacity: 0.6;
+    padding-left: 40px;
+    transition: .5s;
+}
+
+.header__menu-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #DC780B;
+}
+
+.header__menu-nav-link:hover {
+    color: #DC780B;
+    opacity: 1;
+}
+
+.header__menu-button {
+    padding: 13px 30px;
+    background: #DC780B;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 2px dashed #DC780B;
+    transition: .5s;
+}
+
+.header__menu-button:hover {
+    background: transparent;
+    color: #000000;
+}
+
+/* header__menu end */
+/* ******************************************************************** */
+/* header__box start */
+.header__fon-img {
+    width: 100%;
+}
+
+.header__box-h1 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 0;
+}
+
+.header__box-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.header__box-button {
+    padding: 20px 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #DC780B;
+    border: 2px dashed #DC780B;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.header__box-button:hover {
+    background: #DC780B;
+    color: #FFFFFF;
+}
+
+.header__box-button-margin {
+    margin-left: 70px;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+/* header end*/
+/* ******************************************************************** */
+/* main__icon start */
+.main__icon-block {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(72, 54%, 42%, 0.446);
+    border-radius: 50px;
+    margin: auto;
+}
+
+.main__icon-block-h3 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 33px;
+    margin-bottom: 0;
+}
+
+.main__icon-block-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.main__icon {
+    margin-bottom: 100px;
+}
+
+.main__icon-Features {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    margin-bottom: 7px;
+}
+
+.main__icon-h2 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
+/* main__icon end */
+/* *********************************************************** */
+/* section__fon start */
+
+.section__fon-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.section__fon-h3 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 41px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.section__fon-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 0;
+    margin-bottom: 0;
+}
+
+.section__fon-img {
+    width: 100%;
+}
+
+.section__fon-button {
+    padding: 11px 34px 12px 30px;
+    background: #DC780B;
+    border-radius: 5px;
+    border: 1px dashed #DC780B;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.section__fon-button:hover {
+    background: transparent;
+    color: #000000;
+}
+
+.section__fon {
+    margin-bottom: 100px;
+}
+
+/* section__fon end */
+/* *********************************************************** */
+/* section__food start */
+.section__food-box {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    margin-bottom: 40px;
+}
+
+.section__food-box-img {
+    width: 100%;
+}
+
+.section__food-box-text {
+    padding: 7px 25px 25px 25px;
+}
+
+.section__food-box-text-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__food-box-text-price-p {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.section__food-box-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.section__food-box-text-star {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.section__food-box-text-star-add {
+    width: 36px;
+    height: 34px;
+    background: #DC780B;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fas {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.star-icon {
+    color: #DC780B;
+    font-size: 16px;
+}
+
+.section__food-padding {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section__fon-padding {
+    margin-bottom: 20px;
+}
+
+.section__food-buton {
+    padding: 12px 30px;
+    opacity: 1;
+    border: 1px dashed #DC780B;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #DC780B;
+    transition: .5s;
+}
+
+.section__food-buton:hover {
+    background: #DC780B;
+    color: #FFFFFF;
+}
+
+.section__food-submit {
+    padding-top: 50px;
+}
+
+.section__food {
+    margin-bottom: 200px;
+}
+
+/* .section__food end */
+/* ***************************************** */
+/* section__marketing start */
+.section__marketing {
+    background: rgba(251, 241, 231, 0.775);
+    padding: 114px 0 130px 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.section__marketing-take {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.section__marketing-h3 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 41px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.section__marketing-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    padding: 30px 0 40px 0;
+}
+
+.section__marketing_button {
+    padding: 11px 30px 11px 28px;
+    display: flex;
+    align-items: center;
+    background: #150C01;
+    border-radius: 5px;
+    border: 1p solid #150C01;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.section__marketing_button-img {
+    margin-right: 8px;
+}
+
+.button {
+    border: 1.5px solid #150C01;
+    border-radius: 5px;
+    background: transparent;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #150C01;
+    margin-left: 30px;
+}
+
+.section__marketing-phone {
+    position: relative;
+    height: 400px;
+}
+
+.section__marketing-img {
+    position: absolute;
+    top: -180px;
+    width: 60%;
+}
+
+.section__marketing {
+    margin-bottom: 200px;
+}
+
+/*  */
+/* ************************************************ */
+/* section__slider start */
+.section__slider-icon {
+    font-size: 20px;
+    color: #000000;
+}
+
+.section__slider-firstp {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+.section__slider-star {
+    padding: 20px 0 30px 0;
+}
+
+.setion__slider-h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.section__slider-UI {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.section__slider {
+    margin-bottom: 120px;
+}
+
+.section__slider-testimonial {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    margin-bottom: 0;
+}
+
+.section__slider-makingfood {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    padding-top: 12px;
+    margin-bottom: 0;
+}
+
+.section__slider-youneed {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    padding: 23px 0 70px 0;
+    margin-bottom: 0;
+}
+
+/* section__slider end */
+/* ***************************************************** */
+/* section__login start */
+.section__login {
+    padding: 115px 0;
+    background: rgba(230, 153, 71, 0.529);
+}
+
+.section__login input {
+    width: 100%;
+    padding: 32px 0 32px 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+}
+
+.section__login-send {
+    padding: 30px 57px;
+    background: #DC780B;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #DC780B;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.section__login-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    margin-bottom: 0;
+}
+
+.section__login-h3 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 41px;
+    color: #150C01;
+}
+
+.section__login-padding {
+    padding-top: 46px;
+}
+
+/* section__login end */
+/* *********************************************** */
+/* footer__box start */
+.footer__box {
+    background: #252525;
+    padding: 100px 0;
+}
+
+.footer__box-pad {
+    padding-top: 25px;
+}
+
+.footer__box-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 17px;
+}
+
+.footer__box-h5 {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+.footer__box-li {
+    padding-bottom: 15px;
+}
+
+.footer__box-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.footer__box-link:hover {
+    opacity: 1;
+    color: #DC780B;
+}
+
+.instagram,
+.faceebok,
+.twitter,
+.youtube {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.background {
+    background: #6C27B3;
+}
+
+.background-fac {
+    background: #0053BF;
+}
+
+.background-twitt {
+    background: #55ACEE;
+}
+
+.background-youtub {
+    background: #D22215;
+}
+
+.fab {
+    font-size: 20px;
+    color: #D1D1D1;
+}
+
+.footer__box-social-media {
+    display: flex;
+    align-items: center;
+}
+
+/* ************************************************************************************************** */
+/* media */
+@media (max-width:991px) {
+    .header__box-h1 {
+        font-weight: bold;
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    .header__box-p {
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .header__box-button {
+        padding: 17px 20px;
+        font-size: 13px;
+    }
+
+    .header__box-button-margin {
+        margin-left: 40px;
+    }
+
+    .main__icon-block-p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .section__fon-h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .section__fon-title {
+        font-size: 14px;
+        opacity: 1;
+    }
+
+    .section__fon-p {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 20px 0;
+    }
+
+    .section__food-padding {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .section__marketing-img {
+        top: -180px;
+        width: 100%;
+    }
+
+    .section__marketing-h3 {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .section__marketing-p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 0 30px 0;
+    }
+
+    .section__marketing_button {
+        padding: 11px 30px 11px 16px;
+    }
+
+    .section__marketing {
+        padding: 50px 0 50px 0;
+    }
+
+    .section__marketing-img {
+        top: -97px;
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .header__box-h1 {
+        font-size: 22px;
+        line-height: 23px;
+    }
+
+    .header__box-p {
+        font-size: 12px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+        line-height: 18px;
+    }
+
+    .header__box-button {
+        padding: 10px 17px;
+        font-size: 10px;
+        border: 1px dashed #DC780B;
+    }
+
+    .header__box-button-margin {
+        margin-left: 20px;
+    }
+
+    .main__icon-padding {
+        padding-bottom: 40px;
+    }
+
+    .section__fon-title {
+        font-size: 11px;
+    }
+
+    .section__fon-h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .section__fon-p {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0 0 10px 0;
+    }
+
+    .section__fon-button {
+        padding: 10px 25px 10px 25px;
+        font-size: 10px;
+    }
+
+    .section__food-box-text-price-p {
+        font-size: 18px;
+    }
+
+    .section__food-box-text {
+        padding: 7px 20px 20px 20px;
+    }
+
+    .section__food-box-p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+    .star-icon {
+        font-size: 12px;
+    }
+
+    .section__food-box-text-star-add {
+        width: 30px;
+        height: 28px;
+    }
+
+    .section__marketing-img {
+        top: 0;
+    }
+
+    .section__marketing_button-img {
+        margin-right: 0;
+    }
+
+    .section__marketing_button {
+        padding: 11px 11px 11px 16px;
+    }
+
+    .section__marketing {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width:575px) {
+
+    /* .header__box-column-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+    .section__fon-title {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .section__fon-h3 {
+        font-size: 26px;
+        line-height: 27px;
+    }
+
+    .section__fon-p {
+        font-size: 20px;
+        line-height: 23px;
+        padding: 13px 0 13px 0;
+    }
+
+    .section__fon-button {
+        padding: 11px 30px 10px 30px;
+        font-size: 17px;
+    }
+
+    .section__slider-firstp {
+        line-height: 20px;
+        padding-top: 20px;
+    }
+
+    .section__slider-star {
+        padding: 20px 0 20px 0;
+    }
+
+    .setion__slider-h4 {
+        font-size: 12px;
+    }
+
+    .section__slider-UI {
+        font-size: 10px;
+    }
+
+    .section__login input {
+        width: 100%;
+        padding: 20px 0 20px 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .section__login-send {
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    .footer__box-padding-bot {
+        padding-bottom: 30px;
+    }
+
+    .section__marketing-phone {
+        height: 280px;
+    }
+}
+
+@media (max-width:414px) {
+    .header__menu-button {
+        padding: 10px 17px;
+        font-size: 11px;
+        border: 1px dashed #DC780B;
+        margin-left: 40px;
+    }
+
+    .header__box-h1 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .main__icon-Features {
+        padding-top: 20px;
+    }
+
+    .section__fon-h3 {
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    .section__food-box-text-price-p {
+        font-size: 14px;
+    }
+
+    .section__food-box-text {
+        padding: 7px 10px 20px 10px;
+    }
+
+    .section__food-box-p {
+        font-size: 13px;
+        line-height: 16px;
+        padding-top: 10px;
+        opacity: 1;
+    }
+
+    .section__slider-testimonial {
+        font-size: 12px;
+    }
+
+    .section__slider-makingfood {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+
+    .section__slider-youneed {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 21px 0 50px 0;
+    }
+
+    .section__slider-firstp {
+        line-height: 18px;
+        font-size: 13px;
+    }
+
+    .section__slider-star {
+        padding: 15px 0 15px 0;
+    }
+
+    .section__login-h3 {
+        font-size: 25px;
+        line-height: 30px;
+        ;
+    }
+
+    .section__login-padding {
+        padding-top: 30px;
+    }
+
+    .section__marketing-h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .section__marketing-p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 20px 0 20px 0;
+    }
+
+    .section__marketing-take {
+        font-size: 13px;
+    }
+
+    .section__marketing_button {
+        padding: 11px 9px 11px 9px;
+    }
+
+    .button {
+        font-size: 13px;
+    }
+
+    .section__marketing_button {
+        font-size: 13px;
+    }
+
+    .section__marketing-phone {
+        height: 227px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .main__icon-h2 {
+        font-size: 23px;
+        padding-bottom: 30px;
+    }
+
+    .section__food-box-text-price-p {
+        font-size: 12px;
+    }
+
+    .section__food-box-text {
+        padding: 7px 7px 20px 7px;
+    }
+
+    .section__marketing_button {
+        font-size: 11px;
+    }
+
+    .section__marketing-phone {
+        height: 193px;
+    }
+}
+
+@media (max-width:320px) {
+    .main__icon-h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .main__icon-Features {
+        font-size: 12px;
+    }
+
+    .main__icon-block-h3 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .section__fon-p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 13px 0 13px 0;
+    }
+
+    .section__fon-h3 {
+        font-size: 24px;
+    }
+
+    .section__food-padding {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .star-icon {
+        font-size: 7px;
+    }
+
+    .section__food-box-text-star-add {
+        width: 25px;
+        height: 23px;
+    }
+
+    .fas {
+        font-size: 9px;
+    }
+
+    .section__food-box-text {
+        padding: 7px 7px 20px 7px;
+    }
+
+    .section__food-box-text-price-p {
+        font-size: 11px;
+    }
+
+    .section__food-buton {
+        padding: 12px 25px;
+        font-size: 13px;
+    }
+
+    .section__food-submit {
+        padding-top: 20px;
+    }
+
+    .section__slider-makingfood {
+        font-size: 17px;
+    }
+
+    .section__slider-youneed {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 20px 0 50px 0;
+    }
+
+    .section__slider-firstp {
+        line-height: 16px;
+        font-size: 10px;
+    }
+
+    .section__slider-star {
+        padding: 10px 0 10px 0;
+    }
+
+    .setion__slider-h4 {
+        font-size: 10px;
+    }
+
+    .section__slider-UI {
+        font-size: 9px;
+        opacity: 1;
+    }
+
+    .section__marketing-h3 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .section__marketing-p {
+        font-size: 11px;
+        line-height: 16px;
+        padding: 10px 0 10px 0;
+    }
+
+    .section__marketing_button-img {
+        width: 30%;
+    }
+
+    .section__marketing_button {
+        font-size: 9px;
+    }
+
+    .button {
+        margin-left: 10px;
+    }
+
+    .section__marketing-phone {
+        height: 168px;
+    }
+}
+
+
+@media (max-width:280px) {
+    .header__box-h1 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .header__box-p {
+        font-size: 10px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        line-height: 15px;
+        opacity: 1;
+    }
+
+    .header__box-button-margin {
+        margin-left: 3px;
+    }
+
+    .header__box-button {
+        padding: 10px 13px;
+    }
+
+    .section__fon-h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .section__fon-p {
+        font-size: 14px;
+    }
+
+    .section__slider-button {
+        display: none;
+    }
+
+    .section__login-h3 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .section__login-contact {
+        font-size: 13px;
+    }
+
+    .section__login {
+        padding: 100px 0;
+    }
+}
